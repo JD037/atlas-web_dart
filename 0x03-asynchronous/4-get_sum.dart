@@ -22,6 +22,6 @@ Future<double> calculateTotal() async {
 
     return total;
   } catch (e) {
-    return -1;
+    return -1.0; // Return -1.0 as double for further conversion
   }
 }
