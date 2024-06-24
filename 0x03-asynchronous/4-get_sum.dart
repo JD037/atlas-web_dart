@@ -20,7 +20,7 @@ Future<double> calculateTotal() async {
       total += price;
     }
 
-    return double.parse(total.toStringAsFixed(2));
+    return total;
   } catch (e) {
     return -1;
   }
